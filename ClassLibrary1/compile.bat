@@ -1,0 +1,33 @@
+il2cpp.exe ^
+  --convert-to-cpp ^
+  --emit-null-checks ^
+  --enable-array-bounds-check ^
+  --dotnetprofile="unityaot" ^
+  --compile-cpp ^
+  --platform="Android" ^
+  --architecture="ARM64" ^
+  --configuration="Release" ^
+  --outputpath=Output ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/external/bdwgc/include" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/external/bdwgc/include/extra" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/external/bdwgc/include/private" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/external/google/sparsehash" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/external/xxHash" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/c-api" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Posix" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/vm" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/utils" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/vm-utils" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/gc" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/metadata" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/debugger" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/codegen" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/utils/utf8-cpp/source" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/utils/utf8-cpp/source/utf8" ^
+  --tool-chain-path="C:/Android/android-sdk/ndk/19.0.5232133" ^
+  --map-file-parser="C:/Program Files/Unity/Editor/Data/Tools/MapFileParser/MapFileParser.exe" ^
+  --directory="C:\Repo\BeatSaberQuestMod\ClassLibrary1\bin\Debug" ^
+  --generatedcppdir=Cpp ^
+  --verbose 
