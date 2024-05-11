@@ -37,18 +37,18 @@
     <Reference Include="mscorlib">
       <HintPath>Libs\mscorlib.dll</HintPath>
     </Reference>
-	<Reference Include="System">
-	  <HintPath>Libs\System.dll</HintPath>
-	</Reference>
-	<Reference Include="System.Core">
-	  <HintPath>Libs\System.Core.dll</HintPath>
-	</Reference>
+    <Reference Include="System">
+      <HintPath>Libs\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>Libs\System.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration">
-	  <HintPath>Libs\System.Configuration.dll</HintPath>
-	</Reference>
-	<Reference Include="System.Xml">
-	  <HintPath>Libs\System.Xml.dll</HintPath>
-	</Reference>
+      <HintPath>Libs\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>Libs\System.Xml.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>Libs\UnityEngine.dll</HintPath>
     </Reference>

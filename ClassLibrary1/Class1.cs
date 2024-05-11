@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace ClassLibrary1
 {
@@ -12,6 +13,11 @@ namespace ClassLibrary1
             yield return new WaitForSeconds(2.5f);
 
             Debug.Log("Start2");
+        }
+
+        void Update()
+        {
+            
         }
 
         public void Test()

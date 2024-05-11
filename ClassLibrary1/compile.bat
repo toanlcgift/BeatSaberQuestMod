@@ -17,6 +17,9 @@ il2cpp.exe ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os" ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/c-api" ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Posix" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Std" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Unity" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/os/Generic" ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/vm" ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/utils" ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/vm-utils" ^
@@ -26,8 +29,9 @@ il2cpp.exe ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/codegen" ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/utils/utf8-cpp/source" ^
   --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/utils/utf8-cpp/source/utf8" ^
+  --additional-include-directories="C:/Program Files/Unity/Editor/Data/il2cpp/libil2cpp/icalls/mscorlib/System" ^
   --tool-chain-path="C:/Android/android-sdk/ndk/19.0.5232133" ^
   --map-file-parser="C:/Program Files/Unity/Editor/Data/Tools/MapFileParser/MapFileParser.exe" ^
-  --directory="C:\Repo\BeatSaberQuestMod\ClassLibrary1\bin\Debug" ^
+  --directory="C:/Repo/BeatSaberQuestMod/ClassLibrary1/bin/Debug" ^
   --generatedcppdir=Cpp ^
   --verbose 

@@ -241,3 +241,8 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/ClassLibrary1/Cpp
+**/*-stripped
+/FridaAgent/_agent.js
+/FridaAgent/yarn.lock
+/FridaAgent/package-lock.json
