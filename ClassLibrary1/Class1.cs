@@ -31,4 +31,12 @@ namespace ClassLibrary1
         //    var scene = SceneManager.GetActiveScene();
         //}
     }
+
+    public class MainClass
+    {
+        public void Main()
+        {
+            Debug.Log("Main Class");
+        }
+    }
 }
