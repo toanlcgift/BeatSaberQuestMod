@@ -39,7 +39,6 @@
     <Folder Include="agent\common\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="agent\common\StdString.ts" />
     <TypeScriptCompile Include="agent\index.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
