@@ -12,9 +12,16 @@ Il2Cpp.perform(() => {
     const HandleMenuButton = MainMenuViewController.method("HandleMenuButton");
 
     // private void HandleMenuButton(MainMenuViewController.MenuButton menuButton)
-    HandleMenuButton.implementation = function (menuButtonEnum: Il2Cpp.Parameter.Type)
+    HandleMenuButton.implementation = function (menuButtonEnum: Il2Cpp.Parameter.Type): Il2Cpp.Object
     {
         console.log("menu button clicked = " + menuButtonEnum);
+
+        if (menuButtonEnum.toString() == "SoloFreePlay") {
+            console.log("solo");
+        }
+
+        const result = this.method("HandleMenuButton").invoke(menuButtonEnum);
+        return result as Il2Cpp.Object;
     };
 });
 
