@@ -36,21 +36,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="agent\" />
-    <Folder Include="agent\common\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="agent\api.ts" />
-    <TypeScriptCompile Include="agent\application.ts" />
-    <TypeScriptCompile Include="agent\dump.ts" />
-    <TypeScriptCompile Include="agent\exception-listener.ts" />
-    <TypeScriptCompile Include="agent\filters.ts" />
-    <TypeScriptCompile Include="agent\gc.ts" />
-    <TypeScriptCompile Include="agent\indexlib.ts" />
     <TypeScriptCompile Include="agent\index.ts" />
-    <TypeScriptCompile Include="agent\memory.ts" />
-    <TypeScriptCompile Include="agent\module.ts" />
-    <TypeScriptCompile Include="agent\perform.ts" />
-    <TypeScriptCompile Include="agent\tracer.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>

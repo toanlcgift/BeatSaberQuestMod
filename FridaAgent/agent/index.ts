@@ -12,7 +12,7 @@ Il2Cpp.perform(() => {
     const HandleMenuButton = MainMenuViewController.method("HandleMenuButton");
 
     // private void HandleMenuButton(MainMenuViewController.MenuButton menuButton)
-    HandleMenuButton.implementation = function (menuButtonEnum: number): void
+    HandleMenuButton.implementation = function (menuButtonEnum: Il2Cpp.Parameter.Type)
     {
         console.log("menu button clicked = " + menuButtonEnum);
     };
