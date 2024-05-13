@@ -1,15 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "es2020",
     "lib": [ "es2020" ],
-    "moduleResolution": "node",
-    "declaration": true,
-    "experimentalDecorators": true,
-    "sourceMap": true,
+    "allowJs": true,
+    "noEmit": true,
     "strict": true,
-    "stripInternal": true,
-    "plugins": [
-      { "transform": "ts-transformer-inline-file/transformer" }
-    ]
+    "esModuleInterop": true
   }
 }
