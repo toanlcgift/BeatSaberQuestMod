@@ -5,15 +5,6 @@ namespace ClassLibrary1
 {
     public class BeatSaberTest : MonoBehaviour
     {
-        IEnumerator Start()
-        {
-            Debug.Log("Start1");
-            Test();
-            yield return new WaitForSeconds(2.5f);
-
-            Debug.Log("Start2");
-        }
-
         void Update()
         {
             
@@ -37,6 +28,7 @@ namespace ClassLibrary1
         public void Main()
         {
             Debug.Log("Main Class");
-        }
+            GUI.Label(new Rect(10, 10, 100, 20), new GUIContent("hehehe"), GUIStyle.none);
+		}
     }
 }
