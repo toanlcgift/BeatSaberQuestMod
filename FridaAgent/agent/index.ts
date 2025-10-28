@@ -23,6 +23,12 @@ Il2Cpp.perform(() => {
         const result = this.method("HandleMenuButton").invoke(menuButtonEnum);
         return result as Il2Cpp.Object;
     };
+
+    const NoteController = mainlib.class("NoteController");
+    const SendNoteWasMissedEvent = NoteController.method("SendNoteWasMissedEvent");
+    SendNoteWasMissedEvent.implementation = function (): void {
+        console.log("note missed but hacked");
+    }
 });
 
 
