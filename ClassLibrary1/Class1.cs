@@ -28,7 +28,6 @@ namespace ClassLibrary1
         public void Main()
         {
             Debug.Log("Main Class");
-            GUI.Label(new Rect(10, 10, 100, 20), new GUIContent("hehehe"), GUIStyle.none);
 		}
     }
 }
