@@ -12,8 +12,7 @@ Il2Cpp.perform(() => {
     const HandleMenuButton = MainMenuViewController.method("HandleMenuButton");
 
     // private void HandleMenuButton(MainMenuViewController.MenuButton menuButton)
-    HandleMenuButton.implementation = function (menuButtonEnum: Il2Cpp.Parameter.Type): Il2Cpp.Object
-    {
+    HandleMenuButton.implementation = function (menuButtonEnum: Il2Cpp.Parameter.Type): Il2Cpp.Object {
         console.log("menu button clicked = " + menuButtonEnum);
 
         if (menuButtonEnum.toString() == "SoloFreePlay") {
@@ -36,6 +35,12 @@ Il2Cpp.perform(() => {
     Awake.implementation = function (): void {
         console.log("Start called");
     };
+
+    Il2Cpp.trace()
+        .assemblies(Il2Cpp.domain.assembly("Main"))
+        .filterClasses((klass) => klass.name.endsWith("SetSaberGlowColor"))
+        .and()
+        .attach();
 });
 
 
