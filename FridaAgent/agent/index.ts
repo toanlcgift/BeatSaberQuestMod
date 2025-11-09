@@ -31,9 +31,10 @@ Il2Cpp.perform(() => {
     }
 
     const SaberModelContainer = mainlib.class("SaberModelContainer");
-    const Awake = SaberModelContainer.method("Awake");
+    console.log(SaberModelContainer.methods);
+    const Awake = SaberModelContainer.method("Start");
     Awake.implementation = function (): void {
-        console.log("Awake called");
+        console.log("Start called");
     };
 });
 
