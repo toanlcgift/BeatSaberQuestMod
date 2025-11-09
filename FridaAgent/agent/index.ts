@@ -29,6 +29,12 @@ Il2Cpp.perform(() => {
     SendNoteWasMissedEvent.implementation = function (): void {
         console.log("note missed but hacked");
     }
+
+    const SaberModelContainer = mainlib.class("SaberModelContainer");
+    const Awake = SaberModelContainer.method("Awake");
+    Awake.implementation = function (): void {
+        console.log("Awake called");
+    };
 });
 
 
