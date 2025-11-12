@@ -1,4 +1,5 @@
 import "frida-il2cpp-bridge";
+import { CustomNativeFunction } from './native.js';
 
 console.log("start");
 
@@ -77,5 +78,15 @@ Il2Cpp.perform(() => {
     //    .attach();
 });
 
+function selectModelTypeWrapper(type: number): void
+{
+    CustomNativeFunction.selectModelType(type);
+}
 
+function selectModelWrapper(model: number): void {
+    CustomNativeFunction.selectModel(model);
+}
+
+console.log(selectModelTypeWrapper);
+console.log(selectModelWrapper);
 
